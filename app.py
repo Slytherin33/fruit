@@ -64,7 +64,7 @@ def freshness_percentage_by_cv_image(cv_image):
     return int(result[0][0].item()*100)
 
 def imdecode_image(image_file):
-    return cv2.imdecode(
+    return cv2.imdecode(;
         np.frombuffer(image_file.read(), np.uint8),
         cv2.IMREAD_UNCHANGED
     )
@@ -88,7 +88,7 @@ def api_recognize():
 
 @app.route("/")
 def index_page():
-    return render_template("index.html")
+    return render_template("./templates/index.html")
 
 @app.route("/purchase", methods=["POST"])
 def purchase_page():
