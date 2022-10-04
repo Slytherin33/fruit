@@ -88,7 +88,7 @@ def api_recognize():
 
 @app.route("/")
 def index_page():
-    return render_template("./templates/index.html")
+    return render_template("index.html")
 
 @app.route("/purchase", methods=["POST"])
 def purchase_page():
