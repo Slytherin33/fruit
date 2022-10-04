@@ -24,6 +24,7 @@ For the purpose of the guide, I will assume you choose to work on **Koin**
 - ⌛ Wait until your IDE has configured Gradle and indexed all the thing
 - 📂 Open the file `kotlin-jvm/src/main/kotlin/playground/_main.kt`
 - ▶️ Run the `main()` function
+- Check you are providing relevant code.
 
 ![](https://user-images.githubusercontent.com/459464/94725942-d3c96d80-035c-11eb-8562-5a69268d8714.png)
 
